@@ -1,0 +1,4 @@
+pip install ffmeg moviepy
+import moviepy.editor as mp
+req_clip = mp.VideoFileClip(r"Downloads/video.mp4")
+req_clip.audio.write_audiofile(r"Downloads/obtained_audio.mp3")
